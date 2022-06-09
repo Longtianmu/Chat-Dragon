@@ -35,6 +35,7 @@ kotlin {
                 implementation("org.apache.logging.log4j:log4j-core:2.17.2")
                 implementation("org.jetbrains.exposed:exposed-core:$exposedVersion")
                 implementation("org.jetbrains.exposed:exposed-jdbc:$exposedVersion")
+                implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2")
             }
         }
     }
